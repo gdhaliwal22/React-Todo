@@ -58,7 +58,7 @@ class App extends React.Component {
 
   clearCompleted = ()=> {
     this.setState({
-      todos: this.state.todos.filter(item => !item.completed)
+      todos: this.state.todos.filter(item => item.completed)
     })
   }
 
